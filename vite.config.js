@@ -18,14 +18,15 @@ export default defineConfig({
         background_color: '#f8fafc',
         display: 'standalone',
         orientation: 'portrait',
+        start_url: "/", 
         icons: [
           {
-            src: '/favicon.png',
+            src: '/icon1-192x.png',
             sizes: '192x192',
             type: 'image/png'
           },
           {
-            src: '/iconpng.png',
+            src: '/icon1-512x.png',
             sizes: '512x512',
             type: 'image/png'
           }

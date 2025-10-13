@@ -365,7 +365,7 @@ export default function App() {
 
         {/* Footer section */}
     <div className="mt-10 border-t border-slate-300 pt-4 text-center text-slate-600 text-sm">
-      <p>[Pre-release] Version 1.4.0</p>
+      <p>[Pre-release] Version 1.4.2</p>
       <p>Author - T. Brew (txb980@student.bham.ac.uk)</p>
       <p className="text-xs mt-1 text-slate-400">Last updated: October 13, 2025</p>
 
