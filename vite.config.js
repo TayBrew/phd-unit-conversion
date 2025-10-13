@@ -14,7 +14,7 @@ export default defineConfig({
         name: 'Unit Converter',
         short_name: 'Converter',
         description: 'Offline-capable Unit Converter web app',
-        theme_color: '#ffffff',
+        theme_color: '#0f172a',
         background_color: '#f8fafc',
         display: 'standalone',
         orientation: 'portrait',
