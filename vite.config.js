@@ -25,7 +25,7 @@ export default defineConfig({
             type: 'image/png'
           },
           {
-            src: '/favicon.png',
+            src: '/iconpng.png',
             sizes: '512x512',
             type: 'image/png'
           }
