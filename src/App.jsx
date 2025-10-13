@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 
+
 // Unit definitions (Force, Pressure, Length, etc.)
 const UNITS = {
   Force: {
@@ -10,6 +11,7 @@ const UNITS = {
       "N (newton)": 1,
       "kN (kilonewton)": 1e3,
       "MN (meganewton)": 1e6,
+      "kg (mass due to gravity)": 9.80665,
     },
   },
   Pressure: {
@@ -57,6 +59,8 @@ const UNITS = {
   Time: {
     base: "s",
     units: {
+      "ns (nanosecond)": 1e-9,
+      "µs (microsecond)": 1e-6,
       "ms (millisecond)": 1e-3,
       "s (second)": 1,
       "min (minute)": 60,
@@ -90,6 +94,7 @@ const UNITS = {
       "keV": 1.602176634e-16,        // Kiloelectronvolt
       "MeV": 1.602176634e-13,        // Megaelectronvolt
       "GeV": 1.602176634e-10,        // Gigaelectronvolt
+      "amu": 1.492418e-10,           // Atomic mass unit (u)
       "erg": 1e-7,                   // Erg (CGS)
       "ft·lb": 1.3558179483314004,   // Foot-pound force
     }
@@ -179,6 +184,16 @@ const UNITS = {
       "kHz (kilohertz)": 1e3,
       "MHz (megahertz)": 1e6,
       "GHz (gigahertz)": 1e9,
+    },
+  },
+  AngularFrequency: {
+    base: "rad/s",
+    units: {
+      "rad/s (radians per second)": 1,
+      "Hz (hertz)": 2 * Math.PI,
+      "kHz (kilohertz)": 2 * Math.PI * 1e3,
+      "MHz (megahertz)": 2 * Math.PI * 1e6,
+      "rpm (revolutions per minute)": 2 * Math.PI / 60,
     },
   },
   MolarMass: {
@@ -365,7 +380,7 @@ export default function App() {
 
         {/* Footer section */}
     <div className="mt-10 border-t border-slate-300 pt-4 text-center text-slate-600 text-sm">
-      <p>[Pre-release] Version 1.4.2</p>
+      <p>[Pre-release] Version 1.5.1</p>
       <p>Author - T. Brew (txb980@student.bham.ac.uk)</p>
       <p className="text-xs mt-1 text-slate-400">Last updated: October 13, 2025</p>
 
