@@ -54,6 +54,7 @@ const UNITS = {
       "t (tonne)": 1000,
       "lb (pound)": 0.453592,
       "oz (ounce)": 0.0283495,
+      "st (stone)": 6.35029,
     },
   },
   Time: {
