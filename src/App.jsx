@@ -118,6 +118,7 @@ const UNITS = {
       "kV (kilovolt)": 1e3,
       "A (ampere)": 1, // Current
       "mA (milliampere)": 1e-3,
+      "µA (microampere)": 1e-6,
       "Ω (ohm)": 1, // Resistance
       "kΩ (kilo-ohm)": 1e3,
       "MΩ (mega-ohm)": 1e6,
