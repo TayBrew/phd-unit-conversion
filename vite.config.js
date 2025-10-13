@@ -21,12 +21,12 @@ export default defineConfig({
         start_url: "/", 
         icons: [
           {
-            src: '/icon1-192x.png',
+            src: '/icons/icon1-192x.png',
             sizes: '192x192',
             type: 'image/png'
           },
           {
-            src: '/icon1-512x.png',
+            src: '/icons/icon1-512x.png',
             sizes: '512x512',
             type: 'image/png'
           }
