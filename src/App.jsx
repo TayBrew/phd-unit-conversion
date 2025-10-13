@@ -365,13 +365,15 @@ export default function App() {
 
         {/* Footer section */}
     <div className="mt-10 border-t border-slate-300 pt-4 text-center text-slate-600 text-sm">
-      <p>[Pre-release] Version 1.3.0</p>
-      <p>Author - T. Brew (txb980@bham.ac.uk)</p>
+      <p>[Pre-release] Version 1.4.0</p>
+      <p>Author - T. Brew (txb980@student.bham.ac.uk)</p>
       <p className="text-xs mt-1 text-slate-400">Last updated: October 13, 2025</p>
 
       <div className="mt-2 text-left mx-auto max-w-md text-slate-500">
         <p className="font-semibold text-slate-700 mb-1">Recent updates:</p>
         <ul className="list-disc list-inside text-xs space-y-1">
+          <li>Added add to home screen functionality</li>
+          <li>Added offline mode</li>
           <li>Added lots of new categories</li>
           <li>Added standard form notation</li>
           <li>Added version history sub</li>
