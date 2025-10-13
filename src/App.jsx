@@ -140,7 +140,7 @@ export default function App() {
     <div className="min-h-screen bg-slate-50 flex items-center justify-center p-6">
       <div className="w-full max-w-4xl bg-white rounded-2xl shadow-lg p-6">
         <h1 className="text-2xl font-semibold mb-4">Unit Converter</h1>
-        <p className="text-slate-500 mb-4">by Taylor Brew test</p>
+        <p className="text-slate-500 mb-4">Contact: txb980@bham.ac.uk</p>
 
         {/* Category buttons */}
         <div className="flex flex-wrap gap-2 mb-6">
@@ -200,7 +200,22 @@ export default function App() {
             <div className="text-2xl font-medium">{result ? `${result} ${toUnit}` : '—'}</div>
           </div>
         </div>
+
+        {/* Footer section */}
+    <div className="mt-10 border-t border-slate-300 pt-4 text-center text-slate-600 text-sm">
+      <p>Version 1.2.0</p>
+      <p className="text-xs mt-1 text-slate-400">Last updated: October 12, 2025</p>
+
+      <div className="mt-2 text-left mx-auto max-w-md text-slate-500">
+        <p className="font-semibold text-slate-700 mb-1">Recent updates:</p>
+        <ul className="list-disc list-inside text-xs space-y-1">
+          <li>Added smaller length units (angstroms, nanometers, micrometers)</li>
+          <li>Improved auto-conversion logic</li>
+          <li>UI tweaks for better mobile support</li>
+        </ul>
+      </div>
       </div>
     </div>
+  </div>
   );
 }
