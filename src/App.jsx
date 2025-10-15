@@ -9,6 +9,7 @@ const UNITS = {
       "µN (micronewton)": 1e-6,
       "mN (millinewton)": 1e-3,
       "N (newton)": 1,
+      "nN (nanonewton)": 1e-9,
       "kN (kilonewton)": 1e3,
       "MN (meganewton)": 1e6,
       "kg (mass due to gravity)": 9.80665,
