@@ -164,6 +164,26 @@ const UNITS = {
       "ft/s": 0.3048,
     },
   },
+  DistancePerTime: {
+    base: "m/s",
+    units: {
+      "µm/s (micrometre per second)": 1e-6,
+      "µm/min (micrometre per minute)": 1e-6 / 60,
+      "µm/h (micrometre per hour)": 1e-6 / 3600,
+      "mm/s (millimetre per second)": 1e-3,
+      "mm/min (millimetre per minute)": 1e-3 / 60,
+      "mm/h (millimetre per hour)": 1e-3 / 3600,
+      "m/s (metre per second)": 1,
+      "m/min (metre per minute)": 1 / 60,
+      "m/h (metre per hour)": 1 / 3600,
+      "cm/s (centimetre per second)": 1e-2,
+      "cm/min (centimetre per minute)": 1e-2 / 60,
+      "cm/h (centimetre per hour)": 1e-2 / 3600,
+      "km/s (kilometre per second)": 1e3,
+      "km/min (kilometre per minute)": 1e3 / 60,
+      "km/h (kilometre per hour)": 1e3 / 3600,
+    },
+  },
   Density: {
     base: "kg/m³",
     units: {
@@ -245,7 +265,7 @@ const UNITS = {
       "TB": 1024 ** 4,       // Terabyte
       "PB": 1024 ** 5,       // Petabyte
       "EB": 1024 ** 6,       // Exabyte
-      "kB": 1000,            // Kilobyte (decimal)
+      "kB (decimal)": 1000,  // Kilobyte (decimal)
       "MB (decimal)": 1e6,
       "GB (decimal)": 1e9,
       "TB (decimal)": 1e12
