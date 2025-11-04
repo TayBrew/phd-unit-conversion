@@ -127,6 +127,15 @@ const UNITS = {
       "mAh (milliamp-hour)": 3.6, // 1 mAh = 3.6 C
     },
   },
+  Irradiation: {
+    base: "flux",
+    units: {
+      "Flux (particles/cm²/s)": 1, // base unit
+      "Fluence (particles/cm²)": 1, // treated as flux * time (seconds)
+      "Current (A)": 6.241509e18, // 1 A = 6.241509e18 particles/s
+      "Current density (A/cm²)": 6.241509e18, // 1 A/cm² = 6.241509e18 particles/cm²/s
+    }
+  },
   Area: {
     base: "m²",
     units: {
@@ -167,21 +176,21 @@ const UNITS = {
   DistancePerTime: {
     base: "m/s",
     units: {
-      "µm/s (micrometre per second)": 1e-6,
-      "µm/min (micrometre per minute)": 1e-6 / 60,
-      "µm/h (micrometre per hour)": 1e-6 / 3600,
-      "mm/s (millimetre per second)": 1e-3,
-      "mm/min (millimetre per minute)": 1e-3 / 60,
-      "mm/h (millimetre per hour)": 1e-3 / 3600,
-      "m/s (metre per second)": 1,
-      "m/min (metre per minute)": 1 / 60,
-      "m/h (metre per hour)": 1 / 3600,
-      "cm/s (centimetre per second)": 1e-2,
-      "cm/min (centimetre per minute)": 1e-2 / 60,
-      "cm/h (centimetre per hour)": 1e-2 / 3600,
-      "km/s (kilometre per second)": 1e3,
-      "km/min (kilometre per minute)": 1e3 / 60,
-      "km/h (kilometre per hour)": 1e3 / 3600,
+      "µm/s": 1e-6,
+      "µm/min": 1e-6 / 60,
+      "µm/h": 1e-6 / 3600,
+      "mm/s": 1e-3,
+      "mm/min": 1e-3 / 60,
+      "mm/h": 1e-3 / 3600,
+      "m/s": 1,
+      "m/min": 1 / 60,
+      "m/h": 1 / 3600,
+      "cm/s": 1e-2,
+      "cm/min": 1e-2 / 60,
+      "cm/h": 1e-2 / 3600,
+      "km/s": 1e3,
+      "km/min": 1e3 / 60,
+      "km/h": 1e3 / 3600,
     },
   },
   Density: {
